@@ -218,9 +218,9 @@ header {
 }
 
 .topLogo img {
-	height: 80px;
+	height: 86px;
 	padding-left: 10px;
-	padding-top: 5px
+	padding-top: 2px
 }
 
 .topFacebook {
@@ -404,15 +404,16 @@ h1 {
 	font-size: 19px;
 	line-height: 72px;
 	padding-left: 36px;
+	color: lightslategray;
 }
 
 .newsC > a {
 	text-decoration: none;
-	color: lightslategray;
+	color: #000;
 }
 
 .newsC > a:hover {
-	color: darkslategray;
+	color: lightslategray;
 	transition: 0.5s;
 }
 
@@ -626,6 +627,11 @@ footer {
 	font-size: 20px;
 	line-height: 200%;
 	display: inline-block;
+}
+
+.footerNav .activeNav:hover {
+	color: #111;
+	transition: 0.5s;
 }
 
 .footerNav .oldSite {
