@@ -218,9 +218,10 @@ header {
 }
 
 .topLogo img {
-	height: 86px;
-	padding-left: 10px;
-	padding-top: 2px
+	
+	max-width: 435px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 
 .topFacebook {
