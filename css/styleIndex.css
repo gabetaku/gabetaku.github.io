@@ -515,12 +515,13 @@ h1 {
 	}
 
 	.teamContainer .teamInfoP {
-		font-size: 20px;
+		font-size: 17px;
 		line-height: 30px;
 		font-weight: 350;
 		word-wrap: normal;
-		word-break: keep-all;
+		word-break: normal;
 		width: 80%;
+		max-height: 180px;
 		margin-left: 10%;
 		text-align: center;
 	}
